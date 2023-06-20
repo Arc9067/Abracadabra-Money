@@ -18,13 +18,14 @@ const App = () => {
       const header_link = self.selector(".header-link");
       const heroHeader = new SplitType(".hero-header", { types: "chars" });
       const aboutHeader = new SplitType(".about-header", { types: "chars" });
+      const aboutPara = new SplitType(".about-para", { types: "words" });
       const heroPara = new SplitType(".hero-para", { types: "lines" });
 
       gsap.defaults({ ease: "none" });
 
       ScrollTrigger.create({
         trigger: "#hero",
-        toggleActions: "play reverse restart reverse",
+        toggleActions: "play none restart reverse",
         animation: gsap
           .timeline()
           .from(headerLogo, {
@@ -34,16 +35,7 @@ const App = () => {
             duration: 2,
             scale: 0,
           })
-          // .from(
-          //   self.selector(heroHeader.chars),
-          //   {
-          //     opacity: 0,
-          //     stagger: 0.2,
-          //     x: 20,
-          //     y: 10,
-          //   },
-          //   1
-          // )
+
           .from(".banner1", {
             opacity: 0,
           })
@@ -66,6 +58,24 @@ const App = () => {
           })
           .from(".hero-logo", {
             opacity: 0,
+          }),
+      });
+      ScrollTrigger.create({
+        trigger: "#about",
+        toggleActions: "play reverse restart reverse",
+        animation: gsap
+          .timeline()
+          .from(aboutHeader.chars, {
+            opacity: 0,
+            stagger: 0.2,
+            y: 20,
+            duration: 0.3,
+          })
+          .from(aboutPara.words, {
+            opacity: 0,
+            stagger: 0.1,
+            y: 20,
+            duration: 0.3,
           }),
       });
 
