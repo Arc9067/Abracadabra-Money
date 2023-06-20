@@ -1,5 +1,5 @@
 import React from "react";
-import banner1 from "../assets/banner1.png";
+import banner2 from "../assets/banner1.png";
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
               perspiciatis ea cumque est aspernatur in fuga, itaque cupiditate
               autem dolore doloribus reiciendis minus ullam sed?
             </p>
-            {/* <img src={banner1} alt="" className="" loading="lazy" /> */}
+            <img src={banner2} alt="" className="" loading="lazy" />
           </div>
         </article>
       </div>

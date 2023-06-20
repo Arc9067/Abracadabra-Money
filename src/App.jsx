@@ -34,16 +34,19 @@ const App = () => {
             duration: 2,
             scale: 0,
           })
-          .from(
-            self.selector(heroHeader.chars),
-            {
-              opacity: 0,
-              stagger: 0.2,
-              x: 20,
-              y: 10,
-            },
-            1
-          )
+          // .from(
+          //   self.selector(heroHeader.chars),
+          //   {
+          //     opacity: 0,
+          //     stagger: 0.2,
+          //     x: 20,
+          //     y: 10,
+          //   },
+          //   1
+          // )
+          .from(".banner1", {
+            opacity: 0,
+          })
           .from(heroPara.lines, {
             opacity: 0,
             stagger: 0.5,
