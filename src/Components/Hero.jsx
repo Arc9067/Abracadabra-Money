@@ -8,7 +8,7 @@ const Hero = () => {
       <img src={Pattern} alt="" className="w-[5rem] top-10 right-0 animate-bounce object-cover absolute" loading="lazy" />
       <div className="container grid gap-10 justify-between items-center lg:grid-cols-2">
         <article className="flex flex-col gap-6">
-          <h1 className="text-7xl tracking-wider md:text-8xl font-MangoMed font-bold uppercase">
+          <h1 className="text-8xl md:text-8xl font-MangoMed font-bold uppercase">
             The <span className="text-purple-300 ">Abracadabra</span> Money
           </h1>
           <p className="text-xl">
