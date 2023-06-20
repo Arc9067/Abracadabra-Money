@@ -10,7 +10,7 @@ const About = () => {
             about Abracadabra <span className="text-purple-300 ">Money</span>
           </h1>
 
-          <div className="relative w-full  flex flex-col gap-5">
+          <div className="relative w-full  flex flex-col gap-10">
             <p className="text-xl max-w-[900px]">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus adipisci maxime eligendi veritatis veniam
