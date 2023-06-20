@@ -62,7 +62,7 @@ const App = () => {
       });
       ScrollTrigger.create({
         trigger: "#about",
-        toggleActions: "play reverse restart reverse",
+        toggleActions: "restart none restart none",
         animation: gsap
           .timeline()
           .from(aboutHeader.chars, {
