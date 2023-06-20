@@ -4,7 +4,6 @@
 @import url("https://fonts.cdnfonts.com/css/akira-expanded");
 @import url("https://fonts.cdnfonts.com/css/chicola-smoothy");
 
-
 @font-face {
   font-family: "Mangogrotesque";
   src: url(./assets/MangoGrotesque-Black.ttf);
@@ -25,5 +24,11 @@
   }
   img {
     @apply mx-auto;
+  }
+  .tokenomics {
+    background: linear-gradient(180deg, transparent, #1c1f1f),
+      linear-gradient(180deg, #1c1f1f, transparent),
+      url(./assets/patter.png) center center no-repeat;
+    background-size: cover;
   }
 }
