@@ -1,0 +1,29 @@
+@import url("https://fonts.cdnfonts.com/css/work-sans");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+@import url("https://fonts.cdnfonts.com/css/roboto-3");
+@import url("https://fonts.cdnfonts.com/css/akira-expanded");
+@import url("https://fonts.cdnfonts.com/css/chicola-smoothy");
+
+
+@font-face {
+  font-family: "Mangogrotesque";
+  src: url(./assets/MangoGrotesque-Black.ttf);
+}
+
+@font-face {
+  font-family: "MangogrotesqueMed";
+  src: url(./assets/MangoGrotesque-Medium.ttf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  * {
+    text-wrap: balance;
+  }
+  img {
+    @apply mx-auto;
+  }
+}
