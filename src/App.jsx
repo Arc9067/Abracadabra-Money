@@ -24,6 +24,7 @@ const App = () => {
 
       ScrollTrigger.create({
         trigger: "#hero",
+        toggleActions: "play reverse restart reverse",
         animation: gsap
           .timeline()
           .from(headerLogo, {
