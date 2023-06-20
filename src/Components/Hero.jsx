@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="container grid gap-10 justify-between items-center lg:grid-cols-2">
         <article className="flex flex-col gap-6">
           <h1 className="text-8xl md:text-8xl hero-header font-MangoMed font-bold uppercase">
-            The <span className="text-purple-300 ">Abracadabra</span> Money
+             <span className="text-purple-300 ">Abracadabra</span> Money
           </h1>
           <p className="text-xl hero-para">
             American dollar is loosing its value. Crypto Era is becoming
