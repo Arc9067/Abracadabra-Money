@@ -3,10 +3,10 @@ import banner1 from "../assets/banner1.png";
 
 const About = () => {
   return (
-    <section className="py-[50px] w-full">
+    <section className="py-[50px] w-full bg-blaclb" id="about">
       <div className="container flex flex-col justify-center items-center text-center ">
         <article className="flex justify-center items-center flex-col text-center gap-8">
-          <h1 className="text-8xl md:text-8xl font-MangoMed font-bold uppercase md:w-[700px]">
+          <h1 className="text-8xl md:text-8xl font-MangoMed font-bold uppercase md:w-[700px] about-header">
             about Abracadabra <span className="text-purple-300 ">Money</span>
           </h1>
 
